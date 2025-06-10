@@ -1,0 +1,64 @@
+.item-card {
+  padding: 16px 0;
+  border-top: 1px solid #dfdfe0;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.product-image {
+  max-width: 110px;
+}
+.col-left {
+  margin-right: 16px;
+}
+
+.prod-title {
+  font-family: "times-lt", "Times New Roman", times, serif;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.colour-text {
+  font-family: "untitled-sans", sans-serif;
+  font-size: 13px;
+}
+
+.size-text {
+  font-family: "untitled-sans", sans-serif;
+  font-size: 13px;
+}
+
+.quantity-container {
+  display: flex;
+}
+
+.button {
+  background: none;
+  border: none;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-to-bag-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: "untitled-sans", sans-serif;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 1px;
+  text-indent: 1px;
+  border: none;
+}

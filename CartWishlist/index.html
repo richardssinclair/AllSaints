@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./productCard/productCard.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cart-page">
+      <h1 class="page-title">Shopping Bag</h1>
+
+      <div class="tab-header">
+        <button class="tab-button active" data-tab="bag">
+          Shopping Bag <span class="bag-tab"></span>
+        </button>
+        <button class="tab-button" data-tab="wishlist">
+          Wishlist <i class="fa-regular fa-heart icon icon-active"></i
+          >
+          <span class="wishlist-tab"></span>
+        </button>
+      </div>
+
+      <div class="tab-content">
+        <div id="bag" class="tab-panel active">
+          <product-card
+            image="./images/product.avif"
+            title="Shkull Boyfriend Graphic Cotton T-Shirt"
+            colour="Colour: Black"
+            size="UK Size: M"
+            quantity="1"
+            price="£55.00"
+          ></product-card>
+          <product-card
+            image="./images/product.avif"
+            title="Shkull Boyfriend Graphic Cotton T-Shirt"
+            colour="Colour: Black"
+            size="UK Size: M"
+            quantity="1"
+            price="£55.00"
+          ></product-card>
+        </div>
+        <div id="wishlist" class="tab-panel">
+          <product-card
+            image="./images/product.avif"
+            title="Shkull Boyfriend Graphic Cotton T-Shirt"
+            price="£55.00"
+            button="Add to Bag"
+            wishlist="true"
+          ></product-card>
+        </div>
+      </div>
+    </div>
+    <script src="./productCard/productCard.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

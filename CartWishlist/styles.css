@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.cart-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: "times-lt", "Times New Roman", times, serif;
+}
+
+.tab-header {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 13px;
+  font-family: "untitled-sans", sans-serif;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.tab-button.active {
+  color: #000;
+  border-bottom-color: #000;
+  font-weight: 600;
+}
+.icon {
+    display: none;
+}
+
+.icon-active {
+    display: inline-block!important;
+}
+
+.tab-content {
+  padding: 1rem 0;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
